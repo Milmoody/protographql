@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>ProtographQL</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+         <script src="https://kit.fontawesome.com/fdca0dcb7b.js"></script>
+         <script async defer src="https://buttons.github.io/buttons.js"></script>
+         <style>
+                 body {
+                     text-align: center;
+                     /* font-family: "Roboto", sans-serif; */
+                     font-family: "Open Sans", sans-serif;
+
+                     background-color: #F6F8FA;
+                 }
+                 nav {
+                     display:flex;
+                     flex-direction: row;
+                     height: 140px;
+                     background-color: rgb(50, 68, 79);
+                     justify-content: center;
+                 }
+                 p {
+                     margin: 0px;
+                     font-family: 'Open Sans', sans-serif;
+                 }
+                 button {
+                     color:pink;
+                 }
+                 .banner {
+                     /* height: 40px; */
+                     align-self: center;
+                     /* width: 40%; */
+                     height: 85%;
+                 }
+                 .team {
+                     justify-self: right;
+                     align-self: center;
+                     padding-right: 8px;
+                     color: #FFFFFF;
+                 }
+                 .team:hover {
+                     color: #DD399C;
+                     text-decoration: none;
+                 }
+                 .overview{
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: center;
+                     width: 100%;
+                     margin-top: 20px;
+                 }
+            .download {
+                width: 110px;
+                color: rgb(49, 92, 116);
+                border-color: rgb(49, 92, 116);
+            }
+            .download-div {
+                border: 1px solid rgba(0,0,0,0.19);
+                border-radius: 5px;
+                margin: 20px;
+                padding: 20px 5px;
+                align-self: center;
+                width: 370px;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.116), 0 3px 3px rgba(0, 0, 0, 0.13);
+                background-color: white;
+
+            }
+             .demo-img {
+                 /* height: 500px; */
+                 /* float: left; */
+                 width: 50%;
+                 min-width: 300px;
+                 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+             }
+             .demo {
+                 width: 100%;
+                 text-align: center;
+                 /* float: left; */
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 justify-self: center;
+                 background-color: rgb(238, 242, 247);
+                padding-top: 30px;
+                 padding-bottom: 30px;
+                 justify-content: space-evenly;
+             }
+             /* .demo p {
+                 max-width: 400px;
+                 min-width: 60px;
+                 width: 40%;
+             } */
+             #demo1 {
+                 flex-direction: row;
+             }
+             #demo2 {
+                 flex-direction: row-reverse;
+             }
+             .demo-text {
+                 flex-direction: column;
+                 text-align: center;
+                 max-width: 400px;
+                 min-width: 60px;
+                 width: 40%;
+                 font-size: 1.3rem;
+             }
+             .overview-p{
+                 padding-top: 20px;
+                 padding-bottom: 20px;
+                 width: 60%;
+                 min-width: 200px;
+                 align-self: center;
+             }
+             #github-stars {
+                 
+                 padding: 20px; 
+             }
+             .dev-team{
+                 /* display: flex; */
+                 margin: 20px 0px;
+                 /* flex-direction: column; */
+             }
+             .dev-row {
+                 display: flex;
+                flex-direction: row;
+                 justify-content: center;
+             }
+             .headshot {
+                 width: 60%;
+                 border-radius: 50%;
+             }
+             .version {
+                 margin: 30px;
+             }
+             .oslabs {
+                margin-top: 20px;
+             }
+             .issues {
+                 margin: 20px 0px;
+             }
+             
+         </style>
+    </head>
+    <body>
+          <nav>
+              <a class="nav-img" href="#"><img class="banner" src="./../public/assets/pictures/ProtographQLBanner.png"></a>
+          </nav>
+       
+          <div class="overview">
+                <div>
+                        <h3>Simplify Your GraphQL Server Production</h3>
+                    </div>  
+            <p class="overview-p">ProtographQL is a full-service protoyping tool for GraphQL servers, empowering developers to build, visualize, validate and test GraphQL schemas and queries without writing any code. You can import or manually create your relational database tables and easily generate a package to spin up a functional GraphQL Apollo Server. </p>
+                <div class="download-div">
+                    <h4>Download:</h4>
+                    <button type="button" class="btn btn-outline-primary download"><i class="fab fa-apple"></i> Mac</button>
+                    <button type="button" class="btn btn-outline-primary download"><i class="fab fa-linux"></i> Linux</button>
+                    <button type="button" class="btn btn-outline-primary download"><i class="fab fa-windows"></i> Windows</button>
+                </div>    
+            </div>
+            <section id="github-stars">
+                    <div style="clear: left">
+                        <h5 class="star-us">Like our open source project? Star us on Github!</h5>
+                        <a class="github-button" href="https://github.com/protographql2/protographql" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star protographql2/protographql on GitHub">Star</a>
+                    </div>
+                  </section>
+            <section id="tool-usage"> 
+           
+            <div class="demo" id="demo1">
+                <img src="./../public/assets/pictures/v2-overview.gif" class="demo-img">
+                <br>
+                <div class="demo-text">
+                    <h2>CREATE</h2>
+                    <p>Create tables manually or import from a PostgreSQL database, visualize your schema, and export an Apollo Server.</p>
+                </div>
+            </div>
+            <div class="demo" id="demo2">
+                <img src="./../public/assets/pictures/v2-test-queries.gif" class="demo-img">
+                <br>
+                <div class="demo-text">
+                    <h2>TEST</h2>
+                    <p>Validate and export query and response pairs from a custom GraphQL Endpoint for testing. </p>
+                </div>
+            </div>
+          </section>
+          <section class="issues">
+              <p>ProtoGraphQL is in beta. Please post any issues to our GitHub - we would love to hear from you!</p>
+          </section>
+          <section class="about">
+                <h3>The Development Team</h3>
+              <div class="dev-team">
+                  <div class="dev-row" id="v2">
+                        <div class="version" id="v2-icon">  
+                                <img src="https://img.icons8.com/ios/50/000000/2-circle.png">
+                            </div>
+                    <div class="person" id="Haris">  
+                        <img class="headshot" style="height:200; width: 200" src="./../public/assets/pictures/haris-headshot.png">
+                        <p class="person-name">Haris Hambasic</p>
+                        <a href="https://github.com/hambasicharis1995">@hambasicharis1995</a>
+                    </div>
+                    <div class="person" id="Jessica">  
+                            <img class="headshot" src="./../public/assets/pictures/jessica-headshot-200.png">
+                            <p class="person-name">Jessica Vaughan</p>
+                            <a href="https://github.com/jessicavaughan820">@jessicavaughan820</a>
+                        </div>
+                        <div class="person" id="Michele">  
+                                <img class="headshot" src="./../public/assets/pictures/michele-headshot.jpg">
+                                <p class="person-name">Michele Moody</p>
+                                <a href="https://github.com/Milmoody">@Milmoody</a>
+                            </div> 
+                        <div class="person" id="Vance">  
+                                <img class="headshot" src="./../public/assets/pictures/vance-headshot-2.jpeg">
+                                <p class="person-name">Vance Wallace</p>
+                                <a href="https://github.com/Vancito">@Vancito</a>
+                            </div> 
+                    </div>
+                    <div class="dev-row" id="v1">
+                            <div class="version" id="v1-icon">  
+                                    <img src="https://img.icons8.com/ios/50/000000/1-circle.png">
+                                </div>
+                            <div class="person" id="Alena">  
+                                <img class="headshot" src="./../public/assets/pictures/alena-headshot.jpeg">
+                                <p class="person-name">Alena Budzko</p>
+                                <a href="https://github.com/AlenaBudzko">@AlenaBudzko</a>
+                            </div>
+                            <div class="person" id="Bryan">  
+                                    <img class="headshot" src="./../public/assets/pictures/bryan-headshot.jpeg">
+                                    <p class="person-name">Bryan Fong</p>
+                                    <a href="https://github.com/bryanfong-dev">@bryanfong-dev</a>
+                                </div>
+                            <div class="person" id="Geoffery Lin">  
+                                    <img class="headshot" src="./../public/assets/pictures/geoff-headshot.jpeg">
+                                    <p class="person-name">Geoffery Lin</p>
+                                    <a href="https://github.com/geofflin">@geofflin</a>
+                                </div>
+                                <div class="person" id="Jarred">  
+                                        <img class="headshot" src="./../public/assets/pictures/jarred-headshot.jpeg">
+                                        <p class="person-name">Jarred Jack Harewood</p>
+                                        <a href="https://github.com/jackhajb">@jackhajb</a>
+                                    </div> 
+                                <div class="person" id="Rondolfo">  
+                                        <img class="headshot" src="../public/assets/pictures/rudy-headshot.jpeg">
+                                        <p class="person-name">Rondolfo Guzman</p>
+                                        <a href="https://github.com/Rodolfoguzman25">@Rondolfoguzman25</a>
+                                    </div> 
+                            </div>
+              </div>
+            <div class="oslabs">
+              Brought to you by <a href="https://github.com/oslabs-beta">OSLabs Beta</a>
+            </div>
+          </section>
+    </body>
+</html>
